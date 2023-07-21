@@ -1,0 +1,183 @@
+
+/* Body */
+@import url('https://fonts.cdnfonts.com/css/mlb-astros');
+body {
+    width: 80%;
+    margin: auto;
+    
+    color: white;
+    font-family: 'MLB Astros', sans-serif;
+    font-size: 140%;
+    background-image: url('https://i.ibb.co/VTJ5jvg/1141807.png');
+}
+
+/* Header */
+.mlb-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0 1% 0;
+
+    font-size: 180%;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlinks ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.navlinks ul li {
+    padding: 0 40px;
+}
+.navlinks ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Loading */
+.outer-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+/* Not Found */
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+
+/* Player Table */
+.outer-player-table {
+    margin: auto;
+    height: auto;
+    min-height: 80%;
+    max-height: 100%;
+    width: auto;
+    max-width: 800px;
+}
+.inner-player-table {
+    background-color: #191919;
+    color: white !important;
+}
+
+
+/* PlayerCard */
+.outer-player-card {
+    width: 30%;
+    max-width: 300px;
+    margin: 2% 2% 1% 2%;
+}
+.inner-player-card {
+    background-color: #191919 !important;
+}
+.inner-player-card-team-image {
+    align-items: center;
+}
+.inner-player-card * {
+    justify-content: center !important;
+    text-align: center;
+    color: white !important;
+}
+.inner-player-player-card-button-text {
+    color: white !important;
+    background-color: black !important;
+}
+/* PlayerCard Players */
+.outer-player-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Player Profile */
+.outer-player-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-player-profile {
+    width: 80%;
+    min-width: 800px;
+    max-width: 1000px;
+    background-color: #191919 !important;
+}
+.inner-player-profile * {
+    color: white !important;
+}
+/* Player Profile Image */
+.inner-player-profile-image-container {
+    display: flex;
+    flex: 1;
+    border-radius: 0 !important;
+}
+.inner-player-profile-team-image {
+    object-fit: fill !important;
+    background-repeat: no-repeat !important;
+    background-color: #191919;
+}
+.inner-player-profile-player-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    border-radius: 8%;
+}
+/* Player Profile Header */
+.inner-player-profile-center * {
+    display: flex !important;
+    justify-content: center !important;
+}
+.inner-player-profile-header {
+    font-weight: bold;
+}
+/* Player Profile Table */
+.inner-player-profile-table {
+    margin: 4% 0 4% 0;
+}
+.inner-player-profile-table td * {
+    text-align: center;
+    margin: 0 0 6% 0;
+}
+/* Player Profile Icons */
+.inner-player-profile-media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+}
+.inner-player-profile-media-icons * {
+    background-color: black !important;
+}
+
+
+/* Player Search */
+.outer-player-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+.inner-player-search {
+    width: 40%;
+    max-width: 800px;
+}
+/* Player Search PlayerCard */
+.outer-player-card-player-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
